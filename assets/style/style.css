@@ -426,6 +426,44 @@ ul {
 
 
 
+/* footer */
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FA7DA3;
+  padding: 30px 0;
+}
+
+.footer_pc {
+  height: 128px;
+}
+
+.footer_sp {
+  height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 15px 0;
+  }
+  .footer__pc {
+    display: none;
+  }
+}
+
+
+
+
+
+
 /* font */
 
 .noto-serif-jp-regular{
