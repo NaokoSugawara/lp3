@@ -423,6 +423,16 @@ ul {
 
 
 
+/* free-trial2 */
+.section__trial2 {
+  height: 280px;
+}
+
+@media screen and (max-width: 767px) {
+  .section__trial2 {
+    height: 210px;
+  }
+}
 
 
 
