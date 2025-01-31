@@ -665,10 +665,12 @@ ul {
 
 .traial__course {
   width: 48%;
-  height: 340px;
+  min-width: 185px;
+  height: auto;
+  min-height: 260px;
   display: grid;
-  grid-template-rows: 1fr 1fr; /* Two columns */
-  border-radius: 10px; /* Rounded corners */
+  grid-template-rows: 0.1fr 1fr;
+  border-radius: 10px; 
   border: 1px solid #FA7DA3;
 }
 
@@ -678,27 +680,26 @@ ul {
 }
 
 .traial__course__name {
-  text-align: center;
-  vertical-align: middle;
+  /* text-align: center;
+  vertical-align: middle; */
   height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(250, 125, 163, 0.3);
   color: #FA7DA3;
-  font-size: 28px;
-  border-top-left-radius: 10px;  /* Rounded top-left corner */
-  border-top-right-radius: 10px; /* Rounded top-right corner */
+  /* font-size: 28px; */
+  font-size: calc(0.5vw + 1.0rem);
+  border-top-left-radius: 10px;  
+  border-top-right-radius: 10px; 
 }
 
 .traial__course__desc {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border-bottom-left-radius: 10px;  /* Rounded top-left corner */
-  border-bottom-right-radius: 10px; /* Rounded top-right corner */
-}
-
-.traial__course__desc img {
-  width: 100%;
-  height: auto;
+  border-bottom-left-radius: 10px;  
+  border-bottom-right-radius: 10px; 
 }
 
 .traial__course__desc div {
@@ -706,6 +707,12 @@ ul {
   /* letter-spacing: -0.1em; */
   margin-bottom: 10px;
 }
+
+.traial__course__desc img {
+  width: 100%;
+  height: auto;
+}
+
 
 
 
