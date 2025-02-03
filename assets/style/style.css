@@ -275,7 +275,7 @@ ul {
   grid-row: 1 / 3;
   vertical-align: top; 
   color: #FFFD7A;
-  font-size: 250px;
+  font-size: 260px;
   /* line-height: 0; */
   margin-top: -70px;
 }
@@ -425,14 +425,14 @@ ul {
     padding-bottom: 10px;
     font-size: 110px;
     vertical-align: bottom;
-    margin-top: 0px;
+    margin-top: -15px;
   }
   .item2:nth-of-type(3) {
     padding-top: 50%;
     font-size: 40px;
   }
   .item2:nth-of-type(4) {
-    font-size: 30px;
+    font-size: 32px;
   }
   .top__item2--below {
     padding-right: 10%;
@@ -448,6 +448,7 @@ ul {
   .item3 {
     width: 70%;
     height: 50px;
+    margin-bottom: 18px;
   }
 }
 
