@@ -626,6 +626,19 @@ ul {
   align-items: center;
 }
 
+.section__trial a {
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.section__trial a div::after {
+  content: url("/lp3/assets/images/arrow.png");
+  position:absolute;
+  top: 38%;
+  left: 87%;
+}
+
 .trial__button {
   width: 50%;
   height: 130px;
@@ -641,10 +654,6 @@ ul {
   letter-spacing: 0.2em;
 }
 
-.trial__button a {
-  text-align: center;
-  vertical-align: middle;
-}
 
 .trial__box__line {
   width: 50%;
@@ -688,6 +697,12 @@ ul {
   .section__trial ul li:nth-child(2) {
     font-size: 21px;
     margin-bottom: 30px;
+  }
+  .section__trial a div::after {
+    content: url("/lp3/assets/images/arrow.png");
+    position:absolute;
+    top: 32%;
+    left: 85%;
   }
   .trial__button {
     width: 100%;
