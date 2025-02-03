@@ -471,7 +471,7 @@ ul {
   height: auto;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
+  /* justify-content: center; */
   align-items: center;
   overflow: hidden;
 }
@@ -481,12 +481,16 @@ ul {
 }
 
 .section__campaign ul li:first-child {
+  width: 20%;
   color: #FA7DA3;
-  font-size: 34px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .section__campaign ul li:first-child span {
-  font-size: 20px;
+  padding: 3%;
+  padding-right: 6%;
+  font-size: 40px;
 }
 
 .section__campaign ul li:nth-child(2) {
@@ -514,6 +518,7 @@ ul {
   background-color: #FA7DA3;
   color: white;
   font-size: 32px;
+  letter-spacing: 0.1rem;
   border-top-left-radius: 10px;  /* Rounded top-left corner */
   border-top-right-radius: 10px; /* Rounded top-right corner */
 }
@@ -543,21 +548,29 @@ ul {
 
 @media screen and (max-width: 767px) {
   .section__campaign {
-    height: 190px;
-    padding-top: 20px;
+    height: 215px;
+    padding-top: 23px;
+    /* padding-bottom: 100px; */
   }
   .section__campaign ul {
     width: 95%;
     height: 165px;
   }
   .section__campaign ul li {
-    margin-bottom: 7px;
+    margin-bottom: 9px;
   }
   .section__campaign ul li:first-child {
-    font-size: 21px;
+    width: 30%;
+    font-size: 23px;
+  }
+  
+  .section__campaign ul li:first-child span {
+    /* padding: 0;
+    padding-right: 0; */
+    font-size: 30px;
   }
   .section__campaign ul li:nth-child(2) {
-    width: 100%;
+    width: 95%;
     height: auto;
   }
   .section__campaign ul li:nth-child(3) {
@@ -699,8 +712,7 @@ ul {
     margin-bottom: 30px;
   }
   .section__trial a div::after {
-    content: url("/lp3/assets/images/arrow.png");
-    position:absolute;
+    content: url("/lp3/assets/images/arrow_sp.png");
     top: 32%;
     left: 85%;
   }
@@ -779,7 +791,9 @@ ul {
 
 .traial__course__inner {
   height: auto;
-  padding: 12px;
+  /* padding: 12px; */
+  padding: 5%;
+  padding-top: 4%;
 }
 
 .traial__course__name {
@@ -793,6 +807,7 @@ ul {
   color: #FA7DA3;
   /* font-size: 28px; */
   font-size: calc(0.5vw + 1.0rem);
+  letter-spacing: -0.2rem;
   border-top-left-radius: 10px;  
   border-top-right-radius: 10px; 
 }
@@ -807,8 +822,9 @@ ul {
 
 .traial__course__desc div {
   font-size: 17px;
+  line-height: 1.7em;
   /* letter-spacing: -0.1em; */
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 }
 
 .traial__course__desc img {
@@ -840,6 +856,9 @@ ul {
   }
   .traial__course {
     width: 100%;
+  }
+  .traial__course__name {
+    font-size: 22px;
   }
 }
 
