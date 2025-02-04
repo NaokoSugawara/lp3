@@ -17,14 +17,15 @@ console.log("Script loaded!");
 
 document.addEventListener('DOMContentLoaded', function () {
   new Splide('.splide', {
-      type   : 'loop',  // Ensures infinite looping
-      perPage: 1,      // Shows exactly 3 slides
-      perMove: 1,      // Moves one slide at a time
-      gap: '10px',     // Adjust spacing between slides if necessary
-      // focus: 'center', // Ensures active slide stays centered
-      breakpoints: {   // Adjusts slides per view for smaller screens
+      type   : 'slide',
+      perPage: 3,      
+      perMove: 1,      
+      gap: '5%',     
+      arrows: false,
+    
+      breakpoints: {   
           1024: { perPage: 2 },
-          768: { perPage: 1 }
+          767: { perPage: 1 }
       }
   }).mount();
 });
