@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
       type   : 'slide',
       perPage: 3,      
       perMove: 1,      
-      gap: '5%',     
+      gap: '2%',     
       arrows: false,
     
       breakpoints: {   
