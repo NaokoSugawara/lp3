@@ -259,9 +259,9 @@ header {
   position: absolute;
   /* top:50%;
   left:50%: */
-  top:62%;
-  left:65%;
-  font-size: 55px;
+  top: 50%;
+  left: 73%;
+  font-size: 45px;
 }
 
 .top__item1 p {
@@ -395,22 +395,40 @@ header {
     grid-template-rows: repeat(2, 1fr);
   }
 }
-/* @media screen and (max-width: 2000px) and (min-width: 1700px) {
-  .top__container {
-    grid-template-columns: 0.2fr 3fr 3% 2fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
+@media screen and (max-width: 2200px) and (min-width: 2000px) {
+  .top__item1::after {
+    top: 47%;
+    left: 68%;
   }
-} */
+}
 @media screen and (max-width: 2000px) and (min-width: 1600px) {
   .top__container {
     grid-template-columns: 0.2fr 3fr 3% 2.2fr 0.7fr;
     grid-template-rows: repeat(2, 1fr);
+  }
+  .top__item1::after {
+    top: 43%;
+    left: 65%;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 1600px) {
+  /* .top__container {
+    grid-template-columns: 0.2fr 3fr 3% 2.2fr 0.7fr;
+    grid-template-rows: repeat(2, 1fr);
+  } */
+  .top__item1::after {
+    top: 40%;
+    left: 62%;
   }
 }
 @media screen and (max-width: 1600px) and (min-width: 1300px) {
   .top__container {
     grid-template-columns: 0.2fr 3fr 3% 2.5fr 0.1fr;
     grid-template-rows: repeat(2, 1fr);
+  }
+  .top__item1::after {
+    top: 37%;
+    left: 53%;
   }
   .item2:nth-of-type(1) {
     font-size: 47px;
@@ -431,6 +449,10 @@ header {
     grid-template-columns: 0fr 2.8fr 3% 2.5fr 0fr;
     grid-template-rows: repeat(2, 1fr);
   }
+  .top__item1::after {
+    top: 32%;
+    left: 47%;
+  }
   .item2:nth-of-type(1) {
     font-size: 45px;
     /* font-size: calc(1.25vw + 1.5rem); */
@@ -445,7 +467,20 @@ header {
     font-size: 65px;
   }
 }
-
+@media screen and (max-width: 1100px) and (min-width: 768px) {
+  .top__container {
+    grid-template-columns: 0fr 2fr 3% 2.5fr 0fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .top__item1::after {
+    top: 25%;
+    left: 30%;
+    font-size: 35px;
+  }
+  .item2:nth-of-type(1) {
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 767px) {
   .section__top {
     height: 370px;
