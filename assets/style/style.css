@@ -71,10 +71,6 @@ ul {
   margin-left: 65%;
 }
 
-.header__button2 a {
-  margin-left: 10%;
-}
-
 .header__button img {
   height: 100%;
 }
@@ -85,12 +81,21 @@ ul {
   }
 }
 
+@media screen and (max-width: 2900px) and (min-width: 2600px) {
+  .header__button1 a {
+    margin-left: 55%;
+  }
+  .header__button2 a {
+    margin-left: 5%;
+  }
+}
+
 @media screen and (max-width: 2600px) and (min-width: 2000px) {
   .header__button1 a {
     margin-left: 55%;
   }
   .header__button2 a {
-    margin-left: 12%;
+    margin-left: 10%;
   }
 }
 
@@ -109,7 +114,7 @@ ul {
 
 @media screen and (max-width: 1600px) and (min-width: 1300px) {
   .header__pc {
-    padding: 5px 10%;
+    padding: 5px 7%;
   }
   .header__button1 a {
     margin-left: 35%;
