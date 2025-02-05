@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
       breakpoints: {   
           1024: { perPage: 2 },
-          767: { perPage: 1 }
+          767: { perPage: 1, padding: '1rem', gap: '10%' }
       },
       classes: {
         pagination: "splide__pagination your-class-pagination",
