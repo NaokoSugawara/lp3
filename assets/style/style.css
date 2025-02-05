@@ -1306,14 +1306,22 @@ header {
 
 
 /* 8 */
-/* free-trial2 */
+/* free-trial3 */
 .section__trial3 {
   height: 280px;
 }
 
 @media screen and (max-width: 767px) {
   .section__trial3 {
-    height: 210px;
+    height: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .section__trial3 ul {
+    height: 130px;
+  }
+  .section__trial3 ul li:nth-child(2) {
+    margin-bottom: 0px;
   }
 }
 
