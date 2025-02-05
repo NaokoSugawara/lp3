@@ -981,11 +981,17 @@ header {
   .desc2__logo {
     padding: 20% 10%;
   }
+  .img--full, .img--partial{
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 2000px) and (max-width: 1000px) {
   .desc2__logo {
     padding: 20% 5%;
+  }
+  .img--full, .img--partial{
+    width: 70%;
   }
 }
 
