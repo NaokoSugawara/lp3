@@ -1080,7 +1080,7 @@ header {
   }
   .point__box2 {
     height: auto;
-    padding-bottom: 10px;\
+    padding-bottom: 10px;
   }
   .full--pc {
     display: none;
@@ -1125,6 +1125,10 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 30px; */
+}
+
+.threepoints__subject2 {
   margin-bottom: 30px;
 }
 
@@ -1144,7 +1148,7 @@ header {
   margin: 0 15px;
   font-size: 38px;
   color: #FA7DA3;
-  /* margin-bottom: 15px; */
+  margin-bottom: 55px;
 }
 
 .traial__course {
@@ -1223,6 +1227,9 @@ header {
   .section__trial2 ul li:nth-child(4) {
     margin-bottom: 20px;
   }
+  .threepoints__subject2 {
+    margin-bottom: 0;
+  }
   .stars--pc {
     display: none;
   }
@@ -1262,7 +1269,7 @@ header {
   justify-content: center;
   background-color: #FDF0F5;
   padding-top: 41px;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .section__reviews div {
@@ -1278,36 +1285,21 @@ header {
   padding-bottom: 100px;
   background-color: #FDF0F5;
 }
+
 .splide {
-  width: 75%;
-  height: 410px;
+  width: 100%;
+  /* height: 410px; */
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center ;
-}
-
-.splide__pagination {
-  width: 85%;
-  height: 100px;
-  position: static !important;
-
-  border: 3px solid green;
-
-}
-
-.splide__pagination li {
-  /* margin: 0 20px; */
-  /* width: 2%;
-  padding: 0 1%; */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center; */
-  transform: scale(1.5); /* Slightly enlarge the active dot */
-  border: 3px solid pink;
+  /* padding-left: 20%;
+  padding-right: 20%; */
 }
 
 .splide__track {
+  width: 75%;
   background-color: white;
 }
 
@@ -1391,11 +1383,33 @@ header {
   font-size: 14px;
 }
 
+.splide__pagination {
+  width: 85%;
+  height: 100px;
+  position: static !important;
+
+  border: 3px solid green;
+
+}
+
+.splide__pagination li {
+  /* margin: 0 20px; */
+  /* width: 2%;
+  padding: 0 1%; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  transform: scale(1.5); /* Slightly enlarge the active dot */
+  border: 3px solid pink;
+}
 
 
 
 
-.reviews__course {
+
+
+
+/* .reviews__course {
   height: 47px;
   display: flex;
   justify-content: center;
@@ -1405,26 +1419,25 @@ header {
   font-size: calc(0.5vw + 1.0rem);
   border-top-left-radius: 10px;  
   border-top-right-radius: 10px; 
-}
+} */
 
-.reviews__inner {
+/* .reviews__inner {
   height: auto;
   padding: 12px;
-}
+} */
 
-.reviews__review {
+/* .reviews__review {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   border-bottom-left-radius: 10px;  
   border-bottom-right-radius: 10px; 
-}
+} */
 
-.reviews__review div {
+/* .reviews__review div {
   font-size: 17px;
-  /* letter-spacing: -0.1em; */
   margin-bottom: 10px;
-}
+} */
 
 
 
