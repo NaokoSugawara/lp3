@@ -26,6 +26,10 @@ document.addEventListener('DOMContentLoaded', function () {
       breakpoints: {   
           1024: { perPage: 2 },
           767: { perPage: 1 }
-      }
+      },
+      classes: {
+        pagination: "splide__pagination your-class-pagination",
+        page: "splide__pagination__page your-class-page",
+      },
   }).mount();
 });
