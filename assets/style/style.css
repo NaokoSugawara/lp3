@@ -28,9 +28,18 @@ a:hover {
 
 /* 1 */
 /* header */
+body {
+  padding-top: 105px;
+}
+
 header {
   width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 1;
   /* height: auto; */
+  position: fixed;
 }
 
 .header__pc, .header__sp {
@@ -167,6 +176,9 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+  body {
+    padding-top: 53px;
+  }
   .header__pc {
     display: none;
   }
