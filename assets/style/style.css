@@ -1181,7 +1181,8 @@ header {
   align-items: center;
   background-color: rgba(250, 125, 163, 0.1);
   color: #FA7DA3;
-  font-size: calc(0.5vw + 1.0rem);
+  /* font-size: calc(0.5vw + 1.0rem); */
+  font-size: 20px;
   letter-spacing: -0.2rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -1249,7 +1250,7 @@ header {
   }
   .traial__course__name {
     height: 38px;
-    font-size: 16px;
+    font-size: 18px;
   }
   .traial__course__desc div {
     font-size: 13px;
@@ -1302,19 +1303,23 @@ header {
 }
 
 .splide__track {
-  width: 75%;
-  background-color: white;
+  width: 67%;
+  height: auto;
+  /* background-color: white; */
   display: flex;
   justify-content: center;
 }
 
 .splide__list {
-  width: 100%;
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
 
 .splide__slide {
+  /* height: auto !important; */
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -1325,44 +1330,48 @@ header {
 
 .slide__row1 {
   width: 100%;
-  height: 40px;
-  line-height: 40px;
+  height: auto;
+  line-height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #FA7DA3;
   color: white;
-  font-size: 18px;
-  letter-spacing: 0.1rem;
+  font-size: 13px;
+  letter-spacing: -0.1rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .slide__row2 {
   width: 100%;
-  height: 100%;
+  height: auto;
+  flex-grow: 1;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   background-color: white;
-  padding-top: 10px;
+  padding: 10px 12px;
+  /* padding-top: 10px;
   padding-right: 2%;
-  padding-bottom: 5px;
+  padding-bottom: 5px; */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 .row2__face {
   width: 33%;
-  height: 100%;
+  height: auto;
+  /* height: 85%; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row2__face img {
-  height: 95%;
+  width: 85%;
+  height: auto;
 }
 
 .row2__review {
@@ -1370,16 +1379,19 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-left: 5px;
 }
 
 .row2__review p:nth-of-type(1) {
-  font-size: 16px;
+  font-size: 12px;
+  letter-spacing: -0.1rem;
   color: #FA7DA3;
   padding-bottom: 7px;
 }
 
 .row2__review p:nth-of-type(2) {
-  font-size: 14px;
+  font-size: 10px;
+  letter-spacing: -0.1rem;
 }
 
 .splide__pagination {
