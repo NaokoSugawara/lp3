@@ -1143,7 +1143,7 @@ header {
 }
 
 .section__trial2 ul li:nth-child(5) {
-  width: 50%;
+  width: 68%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1175,15 +1175,15 @@ header {
 }
 
 .traial__course__name {
-  height: 47px;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(250, 125, 163, 0.1);
   color: #FA7DA3;
   /* font-size: calc(0.5vw + 1.0rem); */
-  font-size: 20px;
-  letter-spacing: -0.2rem;
+  font-size: 27px;
+  letter-spacing: -0.3rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -1199,6 +1199,7 @@ header {
 .traial__course__desc div {
   font-size: 17px;
   line-height: 1.7em;
+  letter-spacing: -0.1rem;
   margin-bottom: 5%;
 }
 
