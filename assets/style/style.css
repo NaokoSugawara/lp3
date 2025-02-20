@@ -67,7 +67,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .online__buttons__inner {
@@ -75,7 +75,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid #008000;
+  /* border: 1px solid #008000; */
 }
 
 .online__button1, .online__button2 {
@@ -975,7 +975,7 @@ header {
   }
 }
 
-@media screen and (min-width: 2600px) and (max-width: 2000px) {
+@media screen and (max-width: 2600px) and (min-width: 2000px) {
   .desc2__logo {
     padding: 20% 10%;
   }
@@ -983,14 +983,13 @@ header {
     width: 70%;
     height: auto;
   }
-
-  .img--partial{
-    width: 80%;
+  /* .poin__box__partials img {
+    width: 120%;
     height: auto;
-  }
+  } */
 }
 
-@media screen and (min-width: 2000px) and (max-width: 1000px) {
+@media screen and (max-width: 2000px) and (min-width: 1000px) {
   .desc2__logo {
     padding: 20% 5%;
   }
@@ -998,11 +997,11 @@ header {
     width: 60%;
     height: auto;
   }
-
+/* 
   .img--partial{
     width: 70%;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (max-width: 767px) {
